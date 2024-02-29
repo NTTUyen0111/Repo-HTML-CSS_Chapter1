@@ -1,0 +1,52 @@
+body{
+    background-color: #dadada;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 50px;
+}
+
+#orange{
+    background-color: orange;
+    padding-top: 20px;
+    border-style: groove;
+    width: 150px;
+    height: 175px;
+    text-align: center;
+}
+
+#purple{
+    background-color: purple;
+    padding-top: 20px;
+    border-style: groove;
+    width: 150px;
+    height: 175px;
+    text-align: center;
+
+}
+#green{
+    background-color: green;
+    padding-top: 20px;
+    border-style: groove;
+    width: 150px;
+    height: 175px;
+    text-align: center;
+
+}
+#text{
+    font-weight: bold;
+    font-size: 32;
+    text-align: center;
+}
+
+
