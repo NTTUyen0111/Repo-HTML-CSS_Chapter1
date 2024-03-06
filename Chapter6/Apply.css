@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(to left,#d57857 20%, #ffe5dc 80%);
+}
+
+header h1{
+    text-align: center;
+}
+
+main div{
+    text-align: center;
+    display:inline-block;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.box{
+    width:30%;
+    background-color: #a12e21;
+    color:#ffff;
+    padding:30px;
+    border: 2px solid #6c362a;
+    box-sizing: border-box;
+    
+}
+
+.line{
+    border: 1px solid #fff4f4;
+    width: 100%;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+}
+
+/*Media Query for Tablet Viewport*/
+@media screen and (min-width:481px), print{
+    body{
+        margin: 0;
+    }
+    
+    main div{
+        text-align: center;
+        display:inline-block;
+        justify-content: space-between;
+        margin: 3px 2px;}
+
+        h3{
+            font-size: 13px;
+        }
+    
+    .box{
+        width:43%;
+        padding:15px;
+        box-sizing: border-box;
+        font-size: 12px;
+        text-align: left;
+    }
+
+}
