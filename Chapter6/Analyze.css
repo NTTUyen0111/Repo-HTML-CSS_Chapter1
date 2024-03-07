@@ -1,0 +1,83 @@
+body{
+    width:100%;
+    background: linear-gradient(180deg, #e5e0fa 25%, #29157e);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-left: 50px;
+}
+.construction{
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+    background-color: #2d2b79;
+    color: #ffff;
+    padding: 15px;
+}
+
+img{
+    width: 75%;
+}
+
+.content{
+    background-color: #ffff;
+    width: 75%;
+    margin: 0 auto;
+    display:flex;
+}
+
+h2 {
+    padding: 20px 0 0 20px;
+}
+
+p{
+    padding-left: 20px;
+}
+
+/*Media Query Tablet Vewport*/
+@media screen and (max-width:481px), print{
+    h1{
+        margin-left: 0;
+    }
+    .construction{
+        display:grid;
+        text-align: center;
+    }
+    
+    li {
+        background-color: #2d2b79;
+        color: #ffff;
+        padding: 5px;
+        width:90px;
+        border-radius: 5px;
+    }
+    
+    a{
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    
+    .content{
+        background-color: #ffff;
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    
+    h2 {
+        padding: 20px 0 0 20px;
+    }
+    
+    p{
+        padding-left: 20px;
+    }
+}
+
+
+
