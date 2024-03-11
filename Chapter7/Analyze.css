@@ -1,0 +1,48 @@
+
+#color{
+    color: #f5ad73;  
+}
+header h1{
+    background-color: #9d4502;
+    margin:0;
+    padding:20px;
+}
+
+nav{
+    background-color: #321b0c;
+    padding:30px;
+}
+
+nav ul{
+    display: flex;
+    margin:0 20px;
+}
+
+nav li{
+    display: inline;
+    margin-right: 80px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    margin:  20px;
+    
+}
+.contain1{
+    background-color: #9d4502;
+    color: #fff;
+    width: 33%;
+    margin: 5px;
+    padding: 0 15px;
+}
+
+main{
+    background-color: #feecdf;
+}
+
+main h1{
+    text-align: center;
+    margin:0;
+    padding-top:30px;
+}
