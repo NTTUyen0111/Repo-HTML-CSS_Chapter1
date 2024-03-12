@@ -1,0 +1,40 @@
+body{
+    background-color: #f4f8e2;
+}
+
+.contain{
+    text-align: center;
+}
+
+caption{
+    font-size: 2em;
+    padding:2%;
+    margin-top: 2%;
+}
+
+table{
+    width:80%;
+    margin:0 auto 0 auto;
+    border: 3px solid #71881b;
+    border-collapse: collapse;
+}
+
+tr{
+    background-color: #f4f8e2;
+}
+
+tr:nth-child(odd){
+    background-color: #d3e788;
+}
+
+th, td {
+    border: 1px solid #070707;
+    padding: 8px;
+}
+
+p{
+    font-size: 9px;
+}
+
+
+

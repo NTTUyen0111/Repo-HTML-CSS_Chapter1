@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to right, #bdd3ff 30%,#3d77ea );
+}
+
+fieldset{
+    width:20%;
+}
+
+.information{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+button{
+    background-color: #253e92;
+    color:#fff;
+    padding:15px;
+    border-radius: 5px;
+}
+
+p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
