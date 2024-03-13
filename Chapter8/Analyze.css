@@ -2,36 +2,54 @@ body{
     background: linear-gradient(to right, #bdd3ff 30%,#3d77ea );
 }
 
-fieldset{
-    width:20%;
+fieldset legend{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+fieldset input{
+    margin-bottom:  2%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin:0 200px;
 }
 
 .information{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    width:30%;
+    margin: 0 1px 0 0;
 }
-
 .grid{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+    width: 200px;
+    padding: 10px 100px 10px 5px;
 }
 
 button{
-    background-color: #253e92;
+    background-color: #003399;
     color:#fff;
+    font-size:1.25em;
     padding:15px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 25px;
 }
 
 p{
     text-align: center;
 }
 
+/*Media Query Phone Viewport*/
+@media screen and (max-width:375px), print{
+    
 
-
-
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 
 

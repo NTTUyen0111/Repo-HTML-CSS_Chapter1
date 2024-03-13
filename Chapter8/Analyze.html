@@ -12,14 +12,17 @@
             <fieldset>
                 <legend>Customer Information</legend>
                 <div class="grid">
-                    <label>First Name:</label>
-                    <input>
-                    <label>Last Name:</label>
-                    <input>
-                    <label>Email Address:</label>
-                    <input>
-                    <label>Phone Number:</label>
-                    <input>
+                    <label for="fName">First Name:</label>
+                    <input type="text" id="fName" name="fName" required>
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" id="lName" name="lName" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="text" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
                 </div>
             </fieldset>
         </div>
@@ -28,21 +31,24 @@
             <fieldset>
                 <legend>Payment Information</legend>
                 <div class="grid">
-                    <label>Card Name:</label>
-                    <input>
-                    <label>Card Number:</label>
-                    <input>
-                    <label>Expiration Date:</label>
-                    <input type="date" id="ngay" name="ngay">
-                    <label>CCV:</label>
-                    <input>
+                    <label for="cName">Card Name:</label>
+                    <input type="text" id="cName" name="cName" required>
+            
+                    <label for="cNumber">Card Number:</label>
+                    <input type="number" id="cNumber" name="cNumber" required>
+
+                    <label for="expiry">Expiration Date:</label>                        
+                    <input type="text" id="expiry" name="expiry" pattern="(0[1-9]|1[0-2])\/(20)\d{2}" placeholder="MM/YY" required>
+
+                    <label for="ccv">CCV:</label>
+                    <input type="number" id="ccv" name="ccv">
                 </div>
             </fieldset>
         </div>
-
-        <center><button>Submit</button></center>
     </div>
 
+    <center><button>Submit</button></center>
+    
     <p>NTTUyen: 12/03/2024</p>
 </body>
 </html>

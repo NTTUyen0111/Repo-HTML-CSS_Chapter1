@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn2.vectorstock.com/i/1000x1000/25/61/piano-keyboard-icon-for-app-and-web-vector-38072561.jpg" type="image/png">
+    <link rel="stylesheet" href="./Lab_1.css">
+    <title>Strike a Chord: Instructors</title>
+</head>
+<body>
+    <header>
+        <h1> &#9836; Strike a Chord &#9836; </h1>
+    </header>
+    
+    <nav>
+        <ul> 
+            <li><a class="last" href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter2/Lap_1.html">Home</a></li>
+            <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink/Lessons.html"> Lessons </a></li>
+            <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink/Instructors.html"> Instructors</a></li>
+            <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink/Rentals.html"> Rentals </a></li>
+            <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink/Contact.html">Contact</a></li></ul>
+    </nav>
+
+    <main>
+        <p>We rent many different kinds of musical equipment. See our rental rates below.</p>
+
+        <div class="container">
+            <table>
+                <caption>Rental Rates</caption>
+
+                <tr>
+                    <th>Equipment</th>
+                    <th>Daily Rate</th>
+                    <th>Weekend Rate</th>
+                </tr>
+
+                <tr>
+                    <td>Guitars</td>
+                    <td>$25</td>
+                    <td>$40</td>
+                </tr>
+
+                <tr>
+                    <td>Keyboards</td>
+                    <td>$35</td>
+                    <td>$60</td>
+                </tr>
+
+                <tr>
+                    <td>Drum Kits</td>
+                    <td>$50</td>
+                    <td>$75</td>
+                </tr>
+
+                <tr>
+                    <td>Microphones</td>
+                    <td>$10</td>
+                    <td>$15</td>
+                </tr>
+
+                <tr>
+                    <td>DJ Equipment</td>
+                    <td>$22</td>
+                    <td>$38</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="location"><img src="../Chapter5/chicago.png"></div> 
+
+        <div>
+            <p>Complete the form below and one of our staff members will contact you.</p>
+            <div class="box">
+                <div class="information">
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <div class="grid">
+                            <label for="fName">First Name:</label>
+                            <input type="text" id="fName" name="fName" required>
+        
+                            <label for="lName">Last Name:</label>
+                            <input type="text" id="lName" name="lName" required>
+        
+                            <label for="email">Email Address:</label>
+                            <input type="text" id="email" name="email" required>
+        
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </fieldset>
+                </div>
+        
+                <div class="information">
+                    <fieldset>
+                        <legend>Musical Interest</legend>
+                        <div class="grid">
+                            <p style="font-size: 1em; font-weight: normal; padding:0; text-align:unset;">I am interested in:</p>
+                            <label for="guitarles"><input type="checkbox" name="interest" id="guitarles" value="Guitar Lessons">Guitar Lessons</label>
+                            <label for="piano"><input type="checkbox" name="interest" id="pianoles" value="Piano Lessons">Piano Lessons</label>
+                            <label for="violin"><input type="checkbox" name="interest" id="violinles" value="Violin Lessons">Violin Lessons</label>
+                            <label for="rent"><input type="checkbox" name="interest" id="rent" value="Rental Equipment">Rental Equipment</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        
+        <center><button>Submit</button></center>
+    </main>
+
+    <footer>
+        <h2> Contact us today to schedule your first lessons.</h2>
+        <p>Phone Number: (814) 555-9228</p>
+        <p>Email: <a href="mailto:lessons@strikeachord.net">lessons@strikeachord.net</a></p>
+    </footer>
+</body>
+</html>
