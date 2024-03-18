@@ -1,0 +1,82 @@
+body, header, nav, footer, ul, li, h1, h3, h2, img{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+header h1{
+    text-align: center;
+    padding:3%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav{
+    background-color: #373684;
+    padding: 2%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    display: block;
+    font-size: 20px;
+    margin: 0 20px;
+}
+main{
+    padding:2%;
+    background-color: #e8ebf6;
+}
+
+.intro h2{
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding:3%;
+}
+
+img, .lessons p{
+    width:350px;
+    height: auto;
+}
+
+.lessons{
+    margin:0 25px;
+}
+
+.option{
+    padding-top: 30px;
+}
+    
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+    }
+footer a {
+    color: #4645a8;
+    text-decoration: none;
+    }
+
+.location{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
