@@ -1,0 +1,64 @@
+body, header, nav, footer, ul, li, h1, h3, h2, img{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+header h1{
+    text-align: center;
+    padding:3%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    border-right: 1px solid #fff;
+}
+
+nav{
+    background-color: #373684;
+    padding: 2%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    display: block;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+main{
+    padding:2%;
+    background-color: #e8ebf6;
+}
+
+.intro {
+    background-color: #c2c8e5;
+    padding:3%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding:3%;
+}
+
+h3{
+    font-size: 20px;
+    padding:2%;
+}
+
+img, .lessons p{
+    width:350px;
+    height: auto;
+}
+
+.lessons{
+    margin:0 20px;
+}
+
+
