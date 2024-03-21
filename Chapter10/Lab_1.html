@@ -29,7 +29,7 @@
             <a href="contact.html">Contact Us</a>
         </div>
 
-        <a class="menu-icon" onclick="hamburger()">
+        <a class="menu-icon" onclick="menu()">
             <div>&#9776;</div>
         </a>
     </div>
@@ -70,7 +70,7 @@
                     your skills with weekly lessons. Leam new
                     tips and techniques from experienced
                     instructors. We also have a rock band
-                    progam that you can join!</p>
+                    program that you can join!</p>
             </div>
 
             <div class="lessons">
@@ -88,6 +88,15 @@
         </div>
 
     </main>
-
+<script>
+    function menu() {
+  var menu = document.getElementById("menu-links");
+  if (menu.style.display === "block") {
+    menu.style.display = "none";
+  } else {
+    menu.style.display = "block";
+  }
+}
+</script>
 </body>
 </html>
