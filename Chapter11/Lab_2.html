@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-DQ6ViENu3fEUfK3ptnZ4i-1t629zwFMsgB5lDInlc830JfVSrjs3xZmJnLf7vOyYhek&usqp=CAU" type="image/png">
+    <link rel="stylesheet" href="./Lab_2.css">
+    <title>Wildlife Rescue | Wild Rescues.</title>
+</head>
+<body>
+    <header> 
+        <div class="text">
+            <h1> Wild Rescues </h1>  
+            <h3> Rescue. Rehabilitate. Release. </h3> 
+        </div>
+        
+        <img src="../Chapter5/Wildlife Rescue.jpg" alt="image Wild Rescues">
+    </header>
+
+    <nav>
+        <div class="desktop-nav">
+           <ul> 
+                <li><a href="">Home</a></li>
+                <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink_WR/About_Us.html">About Us</a></li> 
+                <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink_WR/Partnership.html">Partnership</a></li>
+                <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink_WR/Gallery.html">Gallery</a>
+                <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink_WR/FAQs.html">FAQs</a>
+                <li><a href="/HTML-CSS/Repo-HTML-CSS_Chapter1/Chapter3/chapter/images/hyperlink_WR/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+          <!-- Mobile Nav -->
+        <div class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="aboutus.html">About Us</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="FAQs.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <a class="menu-icon" onclick="menu()">
+                <div>&#9776;</div>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>We are grateful for the support from our community partners. We have many sponsorship opportunities.</h2>
+
+        <div class="mobile">
+            <h3>Sponsorship Levels.</h3>
+
+            <p>Green: $200.</p>
+            <p>Blue: $400.</p>
+            <p>Red: $600.</p>
+            <p>Purple: $800.</p>
+            <p>Silver: $1,000.</p>
+            <p>Gold: $1,500.</p>
+            <p>Each sponsorship supports our animals and operations. Business recognition is given at every sponsorship level. 
+               Contact us today to become a sponsor.</p>
+        </div>
+
+        <div class="Desktop">
+            <table>
+                <caption>Sponsorship Opportunities</caption>
+
+                <div>
+                    <tr> <!--Row 1-->
+                        <th>Sponsorship Levels</th>
+                        <th>Dollar Amount</th>
+                        <th>Details</th>
+                        <th>Sponsorship Benefits</th>
+                    </tr>
+
+                    <tr>
+                        <td>Green</td>
+                        <td>$200</td>
+                        <td> The green sponsorship helps us maintain green 
+                            pastures for our grazing friends.</td>
+                        <td>Recognition on our website.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Blue</td>
+                        <td>$400</td>
+                        <td> The blue sponsorship helps us provide food for the animals.</td>
+                        <td>Recognition on our website and our brochure.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Red</td>
+                        <td>$600</td>
+                        <td> The red sponsorship helps us provide medical care for the animals.</td>
+                        <td>Recognition on our website and our brochure. Business logo 
+                            displayed on a banner at our facility.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Purple</td>
+                        <td>$800</td>
+                        <td> The purple sponsorship helps us maintain homes for the animals.</td>
+                        <td>Recognition on our website and our brochure. Business logo 
+                            displayed on a banner at our facility. Business name and 
+                            logo displayed at the annual community event.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Silver</td>
+                        <td>$1,000</td>
+                        <td> The silver sponsorship supports our monthly expenses.</td>
+                        <td>Recognition on our website and our brochure. Business logo 
+                            displayed on a banner at our facility. Business name and 
+                            logo displayed at the annual community event. Recognition 
+                            plaque with business name prominently displayed within 
+                            the facility.</td>
+                    </tr>
+
+                    <tr>
+                        <td>Gold</td>
+                        <td>$1,500</td>
+                        <td> The gold sponsorship supports our operation costs.</td>
+                        <td>Recognition on our website and our brochure. Business logo 
+                            displayed on a banner at our facility. Business name and 
+                            logo displayed at the annual community event. Recognition 
+                            plaque with business name prominently displayed within 
+                            the facility. Display table at the annual community event. 
+                            Recognition in all media releases.</td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+
+        <h2>Complete the form below and we will contact you soon.</h2>
+
+        <form class="form-grid">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="fName">First Name:</label>
+                <input type="text" id="fName" name="fName">
+
+                <label for="lName">Last Name:</label>
+                <input type="text" id="lName" name="lName">
+
+                <label for="bName">Name of Business:</label>
+                <input type="text" id="bName" name="bName">
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="iphone">
+            </fieldset>
+
+            <fieldset>
+                <legend> Additional Information</legend>
+
+                <p>I would like more information about:</p>
+
+                <label for="volunteering"><input type="radio" name="info">Volunteering</label>
+
+                <label for="sponsor"><input type="radio" name="info">Sponsorship Opportunities</label>
+
+                <label for="wild"><input type="radio" name="info">Wildlife</label>
+
+                <label for="other"><input type="radio" name="info">Other, please specify below.</label>
+            
+                <label for="questions"> What questions do you have for us?</label>
+                <textarea id="questions" name="questions" rows="3" cols="50"></textarea>
+            </fieldset>
+            </form>
+            
+            <button type="Submit" id="Submit" value="Submit" class="btn">Submit</button>
+            
+    </main>
+    <footer>
+        <div class="copyright">
+          <p>© 2024 Our Music School.</p>
+          <p>All rights reserved.</p>
+        </div>
+      
+        <div class="social">
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook-logo.png" alt="Facebook logo">
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <img src="twitter-logo.png" alt="Twitter logo">
+          </a>
+        </div>
+      </footer>
+
+    <script>
+        function menu(){
+            var menu = document.getElementById("menu-links");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

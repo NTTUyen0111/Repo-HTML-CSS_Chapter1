@@ -1,0 +1,36 @@
+body, header, main, footer, h1, p, a, img{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    background-color: #d8e8f5;
+    margin: 0 80px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header{
+    background-color: #214c73;
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+
+main{
+    background-color: #fff;
+    padding: 25px 20px;
+}
+
+footer{
+    background-color: #76a6d4;
+    padding: 3%;
+    text-align: center;
+}
+
+img{
+    margin:3%;
+    width: 50px;
+}
+
+
